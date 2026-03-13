@@ -1,0 +1,9 @@
+[package]
+name = "chapter_12_macros"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+prettyprint_derive = { path = "prettyprint_derive" }
+log_call = { path = "log_call" }
+stringulate = { path = "stringulate" }

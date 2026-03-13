@@ -1,0 +1,22 @@
+[package]
+name = "performance_test"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rand = "0.8"
+elapsed = "0.1"
+flame = "0.2"
+
+[dev-dependencies]
+criterion = { version = "0.5", features = ["html_reports"] }
+
+[[bench]]
+name = "multiply"
+harness = false
+
+[profile.release]
+debug = true
+
+[features]
+nightly = []

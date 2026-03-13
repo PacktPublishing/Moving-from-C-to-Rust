@@ -1,0 +1,12 @@
+{
+  "pets": [
+    {
+      "name": "Fluffy",
+      "info": { "kind": "dog", "age": 3 }
+    },
+    {
+      "name": "Princess",
+      "info": { "kind": "cat", "age": 5 }
+    }
+  ]
+}

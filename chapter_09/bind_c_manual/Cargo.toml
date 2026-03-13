@@ -1,0 +1,9 @@
+[package]
+name = "bind_c_manual"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[package.metadata]
+notice = "Requires SDL2 development libraries to be installed on the system"

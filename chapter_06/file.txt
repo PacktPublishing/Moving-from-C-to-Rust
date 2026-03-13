@@ -1,0 +1,3 @@
+Hello World
+This is a test file for Chapter 6 examples.
+It contains multiple lines of text.

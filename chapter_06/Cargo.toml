@@ -1,0 +1,34 @@
+[package]
+name = "chapter_6_io"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+byteorder = "1.5"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+toml = "0.8"
+
+[[bin]]
+name = "paths"
+path = "src/bin/paths.rs"
+
+[[bin]]
+name = "error_handling"
+path = "src/bin/error_handling.rs"
+
+[[bin]]
+name = "file_io"
+path = "src/bin/file_io.rs"
+
+[[bin]]
+name = "traits"
+path = "src/bin/traits.rs"
+
+[[bin]]
+name = "byteorder_example"
+path = "src/bin/byteorder_example.rs"
+
+[[bin]]
+name = "serde_test"
+path = "src/bin/serde_test.rs"

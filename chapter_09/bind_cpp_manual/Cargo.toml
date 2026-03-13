@@ -1,0 +1,10 @@
+[package]
+name = "bind_cpp_manual"
+version = "0.1.0"
+edition = "2021"
+
+[build-dependencies]
+cc = "1.2"
+
+[package.metadata]
+notice = "Requires C++ compiler with C++17 support"
